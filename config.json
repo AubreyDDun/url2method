@@ -1,0 +1,16 @@
+{
+    "SERVICE_DIRS": [
+        "./server/app/service"
+    ],
+    "CONTROLLER_DIRS": [
+        "./server/app/controller"
+    ],
+    "ROUTER_FILES": [
+        "./server/app/router.ts"
+    ],
+    "IGNORE_ROUTERS": [
+        "/health/check",
+        "/health/status",
+        "/api/404"
+    ]
+}
